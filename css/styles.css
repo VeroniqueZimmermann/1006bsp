@@ -1,0 +1,53 @@
+/* CSS Document */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-size: 40px 40px;
+    background-image: url(../bilder/bghintergrund.png);
+    background-repeat: repeat;
+}
+
+div{
+    border: 1px solid red;
+}
+
+#header{
+    background-image: url(../bilder/strasse.jpg);
+    position: absolute;
+    top: 0;
+    float: left;
+    height: 15%;
+    width: 100%;
+}
+
+#navigation{
+    font-weight: 700;
+    background-color: grey;
+    opacity: 0.9;
+    position: absolute;
+    top: 15%;
+    float: left;
+    width: 10%;
+    list-style: none;
+}
+
+#inhalt{
+    font-size: 15px;
+    background-color: white;
+    opacity: 0.9;
+    position: absolute;
+    top: 15%;
+    float: right;
+    left: 12%;
+    width: 88%;
+}
+
+#footer{
+    background-color: grey;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    align-self: bottom;
+}
